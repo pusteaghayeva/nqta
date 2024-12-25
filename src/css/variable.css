@@ -1,0 +1,20 @@
+:root {
+    --headerBg: #f8f7ef;
+    --headerColor: #153946;
+    --whiteColor: #ffffff;
+    --searchColor: rgba(152, 152, 152, 1);
+    --menuColor: #033C48;
+    --navbarBg: #f7f9fa;
+    --currentTitle: #D9A183;
+    --blackColor: #000;
+    --lastestNewsBg: #F7F7F7;
+    --greyColor: #859fa8;
+    --dateColor: #8a94a6;
+    --videoColor: #050f21;
+    --newsBgColor: #f7f9fa;
+    --singleNewsDate: #444444;
+    --reportBg: #fcfcfc;
+    --reportBgHover: #f2f5f5;
+    --faqBg: #fafbfb;
+    --secondary-color: #191A23;
+}

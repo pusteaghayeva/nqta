@@ -1,0 +1,150 @@
+footer {
+    width: 100%;
+    background: linear-gradient(0.96deg, #08404B 0.79%, rgba(39, 88, 98, 0.94) 99.14%);
+    padding: 64px;
+    color: var(--whiteColor);
+    font-family: "Work Sans", sans-serif;
+}
+
+.contact-information {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-border {
+    width: 75%;
+    border: 1.5px solid #FFFFFFB8
+}
+
+.footer-left-blog {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 34px;
+}
+
+.footer-left-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+}
+
+.footer-left-img {
+    width: 124px;
+    height: 33px;
+
+    object-fit: cover;
+}
+
+.footer-left-text {
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.42px;
+    margin-left: 23px;
+}
+
+.footer-p {
+    margin: 19px 0;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer-p i {
+    display: none;
+}
+
+.footer-a {
+    color: var(--whiteColor);
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+.search-form {
+    width: 75%;
+    margin: 16px 0;
+    position: relative;
+}
+
+.form-search-icon {
+    position: absolute;
+    top: 50%;
+    right: 12%;
+    transform: translateY(-50%);
+    color: var(--menuColor);
+    font-size: 20px;
+    border: none;
+    background: transparent;
+}
+
+.form-control {
+    width: 100%;
+    padding-right: 40px;
+    box-sizing: border-box;
+    height: 56px;
+    border-radius: 2px;
+}
+
+.form-search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: var(--menuColor);
+    font-size: 20px;
+    border: none;
+    background: transparent;
+    z-index: 2;
+}
+
+.copyright {
+    font-family: "Roboto", serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+
+}
+
+.copyright-link {
+    color: var(--whiteColor);
+}
+
+.copyright-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+    footer {
+        padding: 25px 13px;
+    }
+
+    .footer-p span {
+        display: none;
+    }
+
+    .footer-p i {
+        display: block;
+        margin-right: 4px;
+    }
+
+    .footer-border {
+        width: 100%;
+    }
+
+    .search-form {
+        width: 100%;
+    }
+
+    .footer-p {
+        display: flex;
+        align-items: center;
+    }
+}

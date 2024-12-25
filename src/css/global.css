@@ -1,0 +1,25 @@
+@import url('../css/font.css');
+@import url('../css/variable.css');
+
+/* Layout */
+@import url('./layout/header.css');
+@import url('./layout/navbar.css');
+@import url('./layout/footer.css');
+
+/* Pages */
+@import url('./pages/home.css');
+@import url('./pages/news.css');
+@import url('./pages/single_news.css');
+@import url('./pages/education.css');
+@import url('./pages/videos.css');
+@import url('./pages/static.css');
+@import url('./pages/reports.css');
+@import url('./pages/management.css');
+@import url('./pages/reception_days.css');
+@import url('./pages/documents.css');
+@import url('./pages/eqd.css');
+@import url('./pages/easy_window.css');
+@import url('./pages/faq.css');
+@import url('./pages/register.css');
+@import url('./pages/contact.css');
+@import url('./pages/open_register.css');

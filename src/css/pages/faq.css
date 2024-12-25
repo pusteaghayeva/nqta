@@ -1,0 +1,87 @@
+.working-process .accordion-item {
+    overflow: hidden;
+    background-color: var(--faqBg);
+}
+
+.working-process .accordion-item .accordion-button {
+    background-color: var(--faqBg);
+    padding: 20px 20px;
+    font-size: 14px;
+    line-height: 1.7;
+    border: 1px solid var(--reportBgHover);
+    font-weight: 500;
+}
+
+.working-process .accordion-item .accordion-collapse.collapse.show,
+.working-process .accordion-item .accordion-collapse.collapse.show {
+    transition: all 0.2s ease-in-out;
+}
+
+.working-process .accordion-item .accordion-button:not(.collapsed) {
+    color: var(--secondary-color);
+    transition: all 0.2s ease-in-out;
+    box-shadow: none;
+}
+
+.working-process .accordion-item .accordion-button:focus {
+    box-shadow: none;
+}
+
+.working-process .accordion-item .accordion-collapse .accordion-body {
+    padding: 20px 40px;
+    display: flex;
+    font-size: 14px;
+}
+
+.working-process .accordion-item .accordion-collapse .accordion-body span {
+    padding-left: 1.4rem;
+    border-left: 2px solid var(--menuColor);
+    display: block;
+    width: 2px;
+    height: 100;
+    content: "\f068";
+    height: auto;
+    width: 35px;
+}
+
+.accordion-button::after {
+    background-image: none;
+    font-family: "Font Awesome 6 Free";
+    content: "\f067";
+    height: 24px;
+    width: 24px;
+    border: 1px solid var(--dateColor);
+    border-radius: 50%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--faqBg);
+    color: var(--dateColor);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: none;
+    content: "\f068";
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
+
+.working-process .accordion-item .collapsing {
+    transition: all 0.3s ease-in-out;
+}
+
+.accordion-item {
+    border: 1px solid #fafbfb;
+}
+
+@media screen and (max-width:768px) {
+    .working-process .accordion-item .accordion-button {
+        font-size: 13px;
+    }
+
+    .working-process .accordion-item .accordion-collapse .accordion-body {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+}

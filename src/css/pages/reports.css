@@ -1,0 +1,70 @@
+.reports-blog{
+    margin-top: 10px;
+}
+.reports-single-blog {
+    background-color: var(--reportBg);
+    border: 1px solid #f1f2f4;
+    padding: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    margin-bottom: 15px;
+}
+
+.reports-single-blog:hover {
+    background-color: var(--reportBgHover);
+}
+
+
+.reports-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.report-left {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.report-span {
+    color: var(--dateColor);
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.reports-pdf {
+    width: 18px;
+    height: 18px;
+}
+
+.report-title {
+    margin: 10px 0;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 30px;
+    color: var(--singleNewsDate);
+}
+
+.reports-pdf-size {
+    font-size: 14px;
+    color: var(--dateColor);
+    margin-left: 30px;
+}
+
+.report-right a {
+    margin: 0 5px;
+}
+
+.report-right a i {
+    color: var(--dateColor);
+    font-size: 12px;
+}
+
+@media screen and (max-width: 992px) {
+    .report-title {
+        font-size: 13px;
+    }
+}

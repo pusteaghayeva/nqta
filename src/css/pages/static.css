@@ -1,0 +1,54 @@
+.static {
+    height: auto;
+    font-family: "Noto Sans", sans-serif;
+    color: var(--menuColor);
+
+}
+
+.static_title {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--menuColor);
+    font-family: "Noto Sans", sans-serif;
+}
+
+.static_content {
+    text-align: justify;
+    padding: 8px 0;
+    font-size: 16px;
+}
+
+.static img {
+    max-width: 100%;
+    display: block;
+}
+
+@media (min-width: 320px) and (max-width: 480.98px) {
+    .static {
+        margin: 0;
+    }
+
+    .static_content {
+        padding: 8px 0;
+        font-size: 13px;
+    }
+
+    .static_title {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 480.98px) and (max-width: 768px) {
+    .static {
+        margin: 0;
+    }
+
+    .static_content {
+        padding: 8px 0;
+        font-size: 15px;
+    }
+
+    .static_title {
+        font-size: 15px;
+    }
+}

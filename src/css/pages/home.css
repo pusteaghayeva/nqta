@@ -1,0 +1,838 @@
+* {
+    box-sizing: border-box;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik+Moonrocks&display=swap'); */
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Noto Sans", sans-serif;
+    color: var(--menuColor);
+}
+
+button.back-to-top {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff;
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+    color: transparent;
+    clear: both;
+    visibility: hidden;
+    position: fixed;
+    cursor: pointer;
+    display: block;
+    border: none;
+    right: 50px;
+    bottom: 75px;
+    font-size: 0px;
+    outline: 0 !important;
+    z-index: 99;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+button.back-to-top::before,
+button.back-to-top::after {
+    content: "";
+    display: block;
+    vertical-align: middle;
+    border-bottom: solid 10px var(--menuColor);
+    border-left: solid 10px transparent;
+    line-height: 0;
+    border-right: solid 10px transparent;
+    height: 0;
+    margin: 18px auto 0;
+    width: 0;
+    border-radius: 20px;
+    visibility: hidden;
+}
+
+button.back-to-top.show::after,
+button.back-to-top.show::before {
+    visibility: visible;
+}
+
+button.back-to-top::after {
+    border-bottom-color: #fff;
+    position: relative;
+    top: -24px;
+}
+
+button.back-to-top.show {
+    display: block;
+    background: #fff;
+    color: #00ab6c;
+    font-size: 25px;
+    right: 25px;
+    bottom: 50px;
+    height: 50px;
+    width: 50px;
+    visibility: visible;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+button.back-to-top.show:active {
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* back to top end */
+a {
+    text-decoration: none;
+}
+
+.left-link-blog {
+    margin-top: 20px;
+}
+
+.left-link-a {
+    display: block;
+    width: 100%;
+    height: 211px;
+    margin: 20px 0;
+}
+
+.left-link-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-right-blog {
+    margin: 10px 0;
+}
+
+/* Agency */
+.agency-about {
+    padding: 0 24px;
+}
+
+.agency-title {
+    font-weight: 700;
+    color: var(--navbarColor);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 31.92px;
+}
+
+.agency-content {
+    margin-bottom: 1rem;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.agency-more {
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--navbarColor);
+}
+
+.fas .agency-right-icon {
+    margin-left: 8px;
+}
+
+.agency-more:hover {
+    text-decoration: underline;
+}
+
+/* current */
+.current {
+    background-color: var(--navbarBg);
+    height: 185px;
+    padding: 22px;
+}
+
+.current-button {
+    display: block;
+    text-decoration: none;
+    width: 120px;
+    height: 42px;
+    background-color: var(--currentTitle);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--whiteColor);
+    font-size: 22px;
+    font-weight: 700;
+    transition: all .3s ease-in-out;
+}
+
+.current-button:hover {
+    color: var(--blackColor);
+}
+
+.current-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 12px 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* aciq reyestr */
+.open-register {
+    max-width: 100%;
+    width: 100%;
+    background-color: var(--menuColor);
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    display: block;
+    color: var(--whiteColor);
+    padding: 15px;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-flex;
+    width: max-content;
+    border-radius: 3px;
+}
+
+.border-display {
+    width: 100%;
+    border: 2px solid #033C4833;
+}
+
+/* Video */
+.videos {
+    margin: 49px 0 0 0;
+}
+
+.video-title-blog {
+    padding: 15px 0;
+    margin: 27px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.with-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 15px;
+    margin: 19px 15px;
+    color: var(--menuColor);
+}
+
+.with-arrow::after {
+    content: '';
+    display: block;
+    background-image: url(/src/img/double-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-size: 70%;
+    margin-left: 5px;
+}
+
+.requirements__category--media .requirements__item {
+    padding: 0;
+    margin-bottom: 3rem;
+    gap: 2rem;
+}
+
+.requirements__item--full .requirements__img {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.video__img:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: linear-gradient(0deg, rgba(0, 0, 0, .32), rgba(0, 0, 0, .32));
+    z-index: 1;
+}
+
+.video__img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.video__img:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    content: '';
+    background-image: url(/src/img/play.svg);
+    width: 34px;
+    height: 34px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+}
+
+.video__img {
+    overflow: hidden;
+    margin-bottom: 1.6rem;
+    position: relative;
+}
+
+.modal {
+    --bs-modal-bg: transparent;
+}
+
+.modal-content {
+    background-color: transparent;
+    border: none;
+}
+
+.modal-header {
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 40px;
+    color: var(--whiteColor);
+    cursor: pointer;
+}
+
+.requirements__desc {
+    width: 100%;
+    height: 60px;
+    padding: 10px 0;
+}
+
+.requirements__desc h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Heyvan saglamligi */
+.animal-health {
+    margin: 64px 0 14px;
+    /* margin: 54px 0 14px; */
+}
+
+.animal-title-blog {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 34.58px;
+}
+
+
+.animal-health-col {
+    display: flex;
+    justify-content: space-around;
+    margin: 16px 0;
+    position: relative;
+}
+
+.animal-img-div {
+    min-width: 45%;
+    width: 241px;
+    height: 205px;
+    /* MARGIN ELAVE ETDIM */
+    margin: 0 auto;
+}
+
+.animal-health-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.animal-health-content {
+    padding: 0 22px;
+}
+
+.animal-health-position-absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+}
+
+.animal-health-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 3px 0 9px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.content__date {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+
+.animal-health-text {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21.28px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.latest-news-blog {
+    background-color: var(--lastestNewsBg);
+    margin: 28px 0 48px;
+    height: 725px;
+}
+
+.latest-news-blog.education {
+    margin-top: 83px;
+}
+
+.main-news-blog {
+    height: 760px;
+    /* background-color: purple; */
+}
+
+.main-news {
+    /* background-color: yellow; */
+}
+
+/* Son xeberler */
+.latest-news-title-blog {
+    margin-bottom: 15px;
+}
+
+.latest-news-title-blog .with-arrow {
+    margin: 0px 0 15px 0;
+}
+
+.right-bar_latest_news {
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26.6px;
+    text-decoration: none;
+    color: var(--menuColor);
+}
+
+.right-bar_latest_news:hover {
+    text-decoration: underline;
+}
+
+.right-bar__news {
+    padding: 0 11px;
+    margin: 19px 0;
+}
+
+/* ərizə */
+.right-bar__news.petition {
+    margin: 20px 0;
+}
+
+.latest-news .right-bar__news.petition:first-of-type {
+    margin: 0;
+}
+
+.right-bar__news__item {
+    margin-bottom: 10px;
+}
+
+.latest-news-others {
+    display: block;
+    text-align: right;
+    color: var(--menuColor);
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.latest-news-others span {
+    margin-left: 8px;
+}
+
+/* Multimedia */
+.multimedia {
+    margin-bottom: 110px;
+}
+
+.requirements__img.video__img.multimedia-video-item {
+    height: 265px;
+}
+
+.multimedia-right {
+    display: flex;
+    margin-top: 32px;
+}
+
+.requirements__img.video__img.multimedia-video-item.multimedia-right-video-item {
+    width: 156px;
+    height: 110px;
+
+}
+
+.title-flex {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+
+.title-first {
+    color: var(--greyColor);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.title-flex span {
+    font-size: 18px;
+    color: var(--greyColor);
+    padding: 0 5px;
+}
+
+.title-first.active {
+    color: var(--menuColor);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.application-blog {
+    margin-top: 27%;
+    height: 760px;
+}
+
+.education {
+    height: 600px;
+}
+
+/* /MEDIA  */
+@media only screen and (max-width: 1200px) {
+    .agency-title {
+        font-size: 18px;
+    }
+
+    .agency-content {
+        font-size: 13px;
+    }
+
+    .agency-more {
+        font-size: 13px;
+    }
+
+    .right-blog {
+        width: 90%;
+        margin-left: 66px;
+    }
+
+    .current-button {
+        display: block;
+        width: 130px;
+        height: 40px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .current-title {
+        font-size: 18px;
+        height: 80px;
+    }
+
+    .animal-health {
+        margin: 0px 0 14px;
+    }
+
+    .animal-health-content {
+        width: 50%;
+        padding: 0 10px;
+    }
+
+    .content__date {
+        font-size: 13px;
+    }
+
+    .animal-health-title {
+        font-size: 14px;
+    }
+
+    .animal-health-text {
+        font-size: 14px;
+    }
+
+    .animal-title-blog {
+        font-size: 20px;
+    }
+
+    .with-arrow::after {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+
+    .latest-news-title-blog .with-arrow {
+        margin: 0px 0 15px 0;
+        font-size: 18px;
+    }
+
+    .right-bar__news__item {
+        margin-bottom: 3px;
+    }
+
+    .right-bar_latest_news {
+        font-size: 14px;
+    }
+
+    .right-bar__news {
+        margin: 14px 0;
+    }
+
+    .latest-news-others {
+        font-size: 14px;
+    }
+
+    .video-title-blog {
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .latest-news-blog {
+        height: auto;
+        /* background-color: blue; */
+        /* margin: 43px 0 48px; */
+    }
+
+    .application-blog {
+        height: auto;
+        /* background-color: red; */
+    }
+
+    .education {
+        height: auto;
+        /* background-color: green; */
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .title-first {
+        font-size: 14px;
+    }
+
+    .title-flex span {
+        font-size: 14px;
+        padding: 0 5px;
+    }
+
+    .title-first.active {
+        font-size: 14px;
+    }
+
+    .right-blog {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .animal-health-content {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .current {
+        height: auto;
+    }
+
+    .current-button {
+        width: 140px;
+        height: 40px;
+        font-size: 22px;
+    }
+
+    .current-title {
+        height: auto;
+        font-size: 16px;
+    }
+
+    .agency-about {
+        padding: 0 10px;
+    }
+
+    .agency-title {
+        font-size: 18px;
+    }
+
+    .agency-content {
+        font-size: 14px;
+    }
+
+    .main-right-blog {
+        margin: 10px 0;
+    }
+
+    .animal-health {
+        margin: 14px 0 14px;
+    }
+
+    .animal-title-blog {
+        font-size: 17px;
+    }
+
+    .animal-health-col {
+        display: block;
+    }
+
+    .animal-health-content {
+        padding: 10px 0;
+    }
+
+    .content__date {
+        font-size: 13px;
+    }
+
+    .animal-health-title {
+        font-size: 15px;
+    }
+
+    .animal-health-text {
+        font-size: 13px;
+    }
+
+
+
+    .animal-img-div {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+
+    .video-title-blog {
+        padding: 5px 0;
+        margin: 20px 0;
+        background-color: var(--lastestNewsBg);
+    }
+
+    .video-blog-content {
+        display: none;
+    }
+
+    .videos {
+        background-color: var(--lastestNewsBg);
+    }
+
+    .right-bar_blog {
+        display: none;
+    }
+
+    .latest-news-blog {
+        margin: 30px 0 30px;
+
+    }
+
+    .latest-news-others {
+        display: none;
+
+    }
+
+    .right-bar__news_blog {
+        display: none;
+    }
+
+    .right-bar__news_petition_blog {
+        display: none;
+    }
+
+    .latest-news-blog-education {
+        display: none;
+    }
+
+    .latest-news-blog.education {
+        margin-top: 30px;
+    }
+
+
+    .video-title-blog .border-display {
+        display: none;
+    }
+
+    .with-arrow {
+        justify-content: space-between;
+        padding: 0 5px;
+        margin: 9px 0px;
+        font-size: 16px;
+    }
+
+    .latest-news-title-blog .with-arrow {
+        margin: 0px 0px 0px;
+        padding: 5px;
+    }
+
+    .with-arrow::after {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .multimedia {
+        margin-bottom: 10px;
+        background-color: var(--lastestNewsBg);
+    }
+
+    .multimedia-row {
+        display: none;
+    }
+
+    .latest-news-blog {
+        height: auto;
+    }
+
+    .application-blog {
+        height: auto;
+    }
+
+    .education {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    .animal-health-col {
+        display: flex;
+    }
+
+    .animal-health-content {
+        padding: 0px 30px;
+    }
+
+    .animal-img-div {
+        width: 100%;
+        height: 250px;
+        margin: 0 auto;
+    }
+
+    .latest-news-blog {
+        height: auto;
+    }
+
+    .application-blog {
+        height: auto;
+    }
+
+    .education {
+        height: auto;
+    }
+
+}

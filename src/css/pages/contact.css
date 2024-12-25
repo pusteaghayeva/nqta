@@ -1,0 +1,65 @@
+.contact-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    color: var(--menuColor);
+}
+
+.contact-blog .form-group {
+    font-size: 14px;
+    margin-bottom: .4rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: #050f21;
+}
+
+.contact-blog .form-group textarea {
+    height: 150px;
+}
+
+.btn-contact-send {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    background-color: var(--headerColor);
+    margin: 20px 0;
+    padding: 10px 0;
+    color: var(--whiteColor);
+    transition: all .5s ease-in-out;
+}
+
+.btn-contact-send:hover {
+    background-color: #245e73;
+    color: var(--whiteColor);
+}
+
+.contact-information {
+    margin: 20px 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.contact-info-ul {
+    margin: 5px 0;
+    color: var(--singleNewsDate);
+    font-size: 16px;
+    font-weight: normal;
+
+}
+
+.contact-info-ul span {
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.contact-info-a {
+    color: var(--singleNewsDate);
+
+}
+
+.contact-map iframe {
+    margin-bottom: 30px;
+}

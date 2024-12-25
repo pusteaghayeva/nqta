@@ -1,0 +1,11 @@
+.form-control {
+    font-size: 13px;
+}
+
+.register-blog .form-control:focus {
+    /* border: none; */
+    box-shadow: 0 0 0 .1125rem rgba(21 57 70 );
+    outline: 0;
+    border-color: #153946;
+    box-shadow: unset;
+}
