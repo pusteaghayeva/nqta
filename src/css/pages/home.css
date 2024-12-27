@@ -14,6 +14,53 @@ body {
     color: var(--menuColor);
 }
 
+/* loader */
+body .loader {
+    position: fixed;
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+}
+
+body .loader img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loader {
+    0% {
+        opacity: 0;
+        filter: blur(2px);
+    }
+
+    25% {
+        filter: blur(1px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.3);
+        filter: blur(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+        filter: blur(0);
+    }
+}
+
+
+/* loader end */
+
 button.back-to-top {
     margin: 0 !important;
     padding: 0 !important;
