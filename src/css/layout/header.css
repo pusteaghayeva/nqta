@@ -96,14 +96,14 @@ ul {
 
 
 .social-icon-link {
-  font-size: 16px;
+  font-size: 14px;
   color: var(--headerColor);
   margin: 0px 4px auto;
   padding: 0px;
   border-radius: 50%;
   background-color: var(--headerColor);
-  width: 28px;
-  height: 28px;
+  width: 24px;
+  height: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
