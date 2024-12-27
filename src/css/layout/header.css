@@ -50,7 +50,7 @@ ul {
 .header-top {
   background-color: var(--headerBg);
   border-bottom: 1px solid #033c48;
-  padding: 5px 0;
+  padding: 3px 0;
 }
 
 .header-info .container-fluid {
