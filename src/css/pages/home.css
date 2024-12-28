@@ -165,8 +165,8 @@ a {
 
 .agency-title {
     font-weight: 700;
-    color: var(--navbarColor);
-    font-size: 20px;
+    color: var(--menuColor);
+    font-size: 19px;
     font-weight: 600;
     line-height: 31.92px;
 }
@@ -183,7 +183,7 @@ a {
     font-weight: 600;
     font-size: 16px;
     text-decoration: none;
-    color: var(--navbarColor);
+    color: var(--menuColor);
 }
 
 .fas .agency-right-icon {
