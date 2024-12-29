@@ -1,7 +1,14 @@
+.news-page {
+    height: auto;
+}
+
+.news-page-col:last-child {
+    margin-bottom: 7px;
+}
+
 .news-blog-col {
     position: relative;
     padding: 10px;
-    margin-bottom: 20px;
 }
 
 .news-blog-col:hover {
@@ -86,9 +93,6 @@
         display: block;
     }
 
-    .news-blog-col:last-child {
-        margin-bottom: 70px;
-    }
 
     .news-blog-img {
         width: 100%;
