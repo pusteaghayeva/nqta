@@ -723,3 +723,15 @@ ul {
     min-width: 15%;
   }
 }
+
+@media only screen and (-webkit-device-pixel-ratio: 2) and (max-width: 320px) {
+  .header-logo {
+    width: 100px;
+    height: auto;
+  }
+
+  .leader-img {
+    width: 100%;
+    height: auto;
+  }
+}
