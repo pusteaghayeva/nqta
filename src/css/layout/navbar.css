@@ -37,11 +37,11 @@ body {
     display: block;
     font-size: 18px;
     font-weight: 600;
-    padding: 6.5px 50px;
+    padding: 7px 50px;
     text-decoration: none;
     color: var(--navbarColor);
     letter-spacing: 0.02em;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid rgba(3, 60, 72, .5);
     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
@@ -126,38 +126,6 @@ body {
 .subMenuColor2 {
     background-color: #fff;
 }
-
-/* .subMenuColor2 {
-    background-color: #fff;
-}
-
-.subMenuColor2 {
-    background-color: #fff;
-}
-
-.subMenuColor2 {
-    background-color: #fff;
-}
-
-.subMenuColor2 {
-    background-color: #fff;
-}
-
-.subMenuColor2 {
-    background-color: #fff;
-}
-
-.subMenuColor2 {
-    background-color: #fff;
-}
-
-.subMenuColor2 {
-    background-color: #fff;
-}
-
-.subMenuColor2 {
-    background-color: #fff;
-} */
 
 .navbar {
     display: none;

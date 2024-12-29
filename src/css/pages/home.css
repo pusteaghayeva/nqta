@@ -254,12 +254,12 @@ a {
 
 /* Video */
 .videos {
-    margin: 49px 0 0 0;
+    /* margin: 49px 0 0 0; */
 }
 
 .video-title-blog {
     padding: 15px 0;
-    margin: 27px 0;
+    /* margin: 27px 0; */
     font-size: 18px;
     font-weight: 600;
 }
@@ -269,7 +269,7 @@ a {
     align-items: center;
     justify-content: start;
     padding: 0 15px;
-    margin: 19px 15px;
+    margin: 10px 15px;
     color: var(--menuColor);
 }
 
@@ -369,14 +369,14 @@ a {
 
 /* Heyvan saglamligi */
 .animal-health {
-    margin: 64px 0 14px;
+    margin: 4px 0 14px;
     /* margin: 54px 0 14px; */
 }
 
 .animal-title-blog {
     font-size: 20px;
     font-weight: 600;
-    line-height: 34.58px;
+    line-height: 20px;
 }
 
 
@@ -449,7 +449,7 @@ a {
 }
 
 .latest-news-blog.education {
-    margin-top: 83px;
+    margin-top: 36px;
 }
 
 .main-news-blog {
@@ -516,7 +516,7 @@ a {
 
 /* Multimedia */
 .multimedia {
-    margin-bottom: 110px;
+    margin-bottom: 80px;
 }
 
 .requirements__img.video__img.multimedia-video-item {
@@ -560,12 +560,12 @@ a {
 }
 
 .application-blog {
-    margin-top: 27%;
+    /* margin-top: 27%; */
     height: 760px;
 }
 
 .education {
-    height: 600px;
+    height: 550px;
 }
 
 /* /MEDIA  */
@@ -660,18 +660,14 @@ a {
 
     .latest-news-blog {
         height: auto;
-        /* background-color: blue; */
-        /* margin: 43px 0 48px; */
     }
 
     .application-blog {
         height: auto;
-        /* background-color: red; */
     }
 
     .education {
         height: auto;
-        /* background-color: green; */
     }
 }
 

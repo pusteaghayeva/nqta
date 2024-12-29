@@ -1,7 +1,7 @@
 footer {
     width: 100%;
     background: linear-gradient(0.96deg, #08404B 0.79%, rgba(39, 88, 98, 0.94) 99.14%);
-    padding: 64px;
+    /* padding: 64px; */
     color: var(--whiteColor);
     font-family: "Work Sans", sans-serif;
 }
@@ -36,21 +36,20 @@ footer {
 .footer-left-img {
     width: 124px;
     height: 33px;
-
     object-fit: cover;
 }
 
 .footer-left-text {
-    font-family: "Work Sans", sans-serif;
-    font-size: 14px;
-    font-weight: 600;
     line-height: 16.42px;
     margin-left: 23px;
+    font-weight: 300;
+    font-size: 13px;
+    font-family: "Inter", serif;
 }
 
 .footer-p {
-    margin: 19px 0;
-    font-weight: 700;
+    margin: 15px 0;
+    font-weight: 500;
     font-size: 15px;
     font-family: "Roboto", sans-serif;
 }
@@ -68,9 +67,8 @@ footer {
 }
 
 .search-form {
-    /* width: 75%; */
     width: 100%;
-    margin: 16px 0;
+    margin: 12px 0 0;
     position: relative;
 }
 
@@ -107,8 +105,8 @@ footer {
 
 .copyright {
     font-family: "Roboto", serif;
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 400;
     line-height: 20px;
     text-align: left;
 
