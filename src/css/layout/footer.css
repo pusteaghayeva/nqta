@@ -121,9 +121,9 @@ footer {
 }
 
 @media (max-width: 992px) {
-    footer {
+    /* footer {
         padding: 25px 13px;
-    }
+    } */
 
     .footer-p span {
         display: none;

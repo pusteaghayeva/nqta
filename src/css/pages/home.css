@@ -2,8 +2,6 @@
     box-sizing: border-box;
 }
 
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik+Moonrocks&display=swap'); */
-
 html {
     overflow-x: hidden;
 }
@@ -227,7 +225,6 @@ a {
     height: 80px;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 /* aciq reyestr */
@@ -253,13 +250,9 @@ a {
 }
 
 /* Video */
-.videos {
-    /* margin: 49px 0 0 0; */
-}
 
 .video-title-blog {
     padding: 15px 0;
-    /* margin: 27px 0; */
     font-size: 18px;
     font-weight: 600;
 }
@@ -370,7 +363,6 @@ a {
 /* Heyvan saglamligi */
 .animal-health {
     margin: 4px 0 14px;
-    /* margin: 54px 0 14px; */
 }
 
 .animal-title-blog {
@@ -391,7 +383,6 @@ a {
     min-width: 45%;
     width: 241px;
     height: 205px;
-    /* MARGIN ELAVE ETDIM */
     margin: 0 auto;
 }
 
@@ -454,11 +445,6 @@ a {
 
 .main-news-blog {
     height: 760px;
-    /* background-color: purple; */
-}
-
-.main-news {
-    /* background-color: yellow; */
 }
 
 /* Son xeberler */
@@ -560,7 +546,6 @@ a {
 }
 
 .application-blog {
-    /* margin-top: 27%; */
     height: 760px;
 }
 
@@ -583,8 +568,7 @@ a {
     }
 
     .right-blog {
-        width: 90%;
-        margin-left: 66px;
+        width: 100%;
     }
 
     .current-button {
