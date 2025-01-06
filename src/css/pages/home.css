@@ -252,7 +252,7 @@ a {
 /* Video */
 
 .video-title-blog {
-    padding: 15px 0;
+    padding: 10px 0;
     font-size: 18px;
     font-weight: 600;
 }
@@ -375,7 +375,7 @@ a {
 .animal-health-col {
     display: flex;
     justify-content: space-around;
-    margin: 16px 0;
+    margin: 10px 0;
     position: relative;
 }
 
@@ -435,12 +435,12 @@ a {
 
 .latest-news-blog {
     background-color: var(--lastestNewsBg);
-    margin: 28px 0 48px;
+    margin: 15px 0 0px;
     height: 725px;
 }
 
 .latest-news-blog.education {
-    margin-top: 36px;
+    margin-top: 15px;
 }
 
 .main-news-blog {

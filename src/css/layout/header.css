@@ -70,7 +70,7 @@ ul {
 .header-main-text {
   font-family: Segoe UI;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 22.4px;
   text-align: center;
 
@@ -199,7 +199,7 @@ ul {
 
 /* header bottom */
 .header__logo {
-  margin-top: 3rem;
+  margin-top: 2rem;
   text-align: center;
   display: flex;
   justify-content: center;
