@@ -623,12 +623,8 @@ ul {
 }
 
 @media only screen and (max-width: 340px) {
-  nav.navbar {
-    display: flex;
-    background-color: red;
-  }
   .navbar-brand {
-    max-width: 50px;
+    max-width: 47px;
     margin-top: 0;
   }
 
