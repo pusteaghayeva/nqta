@@ -639,7 +639,7 @@ ul {
   }
 }
 
-@media screen and (max-device-width: 320px) {
+@media screen and (min-device-width: 320px) {
   .navbar-toggler-icon {
     display: inline-block;
     width: 0.90em;
