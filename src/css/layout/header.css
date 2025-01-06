@@ -176,7 +176,7 @@ ul {
 }
 
 .dropdown-menu {
-  background-color: var(--headerBg);
+  background-color: var(--navbarBg);
   border: none;
   outline: none;
 }
