@@ -630,19 +630,20 @@ ul {
 
 @media only screen and (max-width: 340px) {
   .navbar-brand {
-    max-width: 80px;
+    max-width: 60px;
     margin-top: 0;
   }
 
   .leader {
-    height: 60px;
+    height: 40px;
   }
 }
 
-@media screen and (min-device-width: 320px) {
+/* @media screen and (min-device-width: 320px) {
   .navbar-toggler-icon {
     display: inline-block;
     width: 0.90em;
+    background-color: red;
   }
 
   .navbar>.container,
@@ -658,11 +659,13 @@ ul {
 
   nav.navbar {
     display: block;
+    background-color: yellow;
   }
 
   .navbar-brand {
     max-width: 50px;
     margin-top: 0;
+    background-color: pink;
   }
 
   .navbar-toggler:focus {
@@ -729,7 +732,7 @@ ul {
   .e-services {
     min-width: 15%;
   }
-}
+} */
 
 /* @media only screen and (max-device-width: 320px) {
   .header-logo {
