@@ -630,7 +630,7 @@ ul {
 
   .leader {
     height: 40px;
-    display: none;
+    display: none !important;
   }
 
   .navbar-toggler-icon {
