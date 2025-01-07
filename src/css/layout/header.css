@@ -287,14 +287,16 @@ ul {
   background: #033c48;
   color: #fff;
   border: 1px solid transparent;
-  font-size: 14px;
+  font-size: 13px;
   width: -webkit-max-content;
   width: max-content;
   border-radius: 3px;
+  font-family: sans-serif;
 }
 
 .login {
   min-width: 72%;
+  justify-content: center;
 }
 
 .login-media {

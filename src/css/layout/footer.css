@@ -21,7 +21,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     position: relative;
-    margin-bottom: 34px;
+    margin-bottom: 19px;
 }
 
 .footer-left-link {
@@ -121,10 +121,7 @@ footer {
 }
 
 @media (max-width: 992px) {
-    /* footer {
-        padding: 25px 13px;
-    } */
-
+   
     .footer-p span {
         display: none;
     }
