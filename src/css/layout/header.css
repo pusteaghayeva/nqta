@@ -166,6 +166,14 @@ ul {
 :not(.btn-check)+.btn:active {
   border: none !important;
   outline: none !important;
+  box-shadow: none !important;
+
+}
+
+.btn {
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .dropdown:focus-visible,
