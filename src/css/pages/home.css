@@ -170,14 +170,9 @@ a {
 }
 
 .agency-content {
-    /* margin-bottom: 1rem; */
     font-size: 14px;
-    /* font-weight: 400; */
-    /* line-height: 28px; */
     text-align: left;
     font-weight: 400;
-    /* font-size: 1.4rem; */
-    /* line-height: 1.3rem; */
     margin-bottom: 1rem;
     color: #444444;
 }
@@ -449,7 +444,7 @@ a {
 }
 
 .main-news-blog {
-    height: 760px;
+    height: auto;
 }
 
 /* Son xeberler */
@@ -481,7 +476,6 @@ a {
 
 /* ərizə */
 .right-bar__news.petition {
-    /* margin: 20px 0; */
     margin-bottom: 1rem;
 }
 
@@ -552,7 +546,7 @@ a {
 }
 
 .application-blog {
-    height: 760px;
+    height: auto;
 }
 
 .education {
