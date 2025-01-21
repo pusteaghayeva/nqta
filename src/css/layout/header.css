@@ -554,6 +554,7 @@ ul {
     margin-top: 0;
     width: auto;
     height: 64px;
+    height: 30px;
   }
 
   .header__logo .logo {
@@ -660,6 +661,7 @@ ul {
     align-items: center;
     justify-content: space-between;
   }
+
   .check-blog {
     margin-bottom: 10px;
   }
@@ -693,6 +695,7 @@ ul {
     align-items: center;
     justify-content: space-between;
   }
+
   nav.navbar {
     display: flex;
 
