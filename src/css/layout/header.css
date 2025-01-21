@@ -515,10 +515,10 @@ ul {
   }
 
   .header-media .navbar .container-fluid {
-    background-color: red;
+    background-color: pink;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between !important;
   }
 
 
@@ -655,7 +655,7 @@ ul {
   }
 
   .header-media .navbar .container-fluid {
-    background-color: red;
+    background-color: green;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -688,7 +688,7 @@ ul {
   }
 
   .header-media .navbar .container-fluid {
-    background-color: red;
+    background-color: yellow;
     display: flex;
     align-items: center;
     justify-content: space-between;
