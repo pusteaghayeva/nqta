@@ -502,6 +502,7 @@ ul {
 }
 
 @media only screen and (max-width: 992px) {
+
   .sidebar-navigation {
     margin: 20px auto !important;
   }
@@ -515,12 +516,20 @@ ul {
   }
 
   .header-media .navbar .container-fluid {
-    background-color: pink;
+    background-color: red;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
-    align-items: center;
-    justify-content: space-between !important;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
-
 
   .sidebar-navigation-normal {
     display: none;
@@ -554,7 +563,6 @@ ul {
     margin-top: 0;
     width: auto;
     height: 64px;
-    height: 30px;
   }
 
   .header__logo .logo {
@@ -647,21 +655,6 @@ ul {
 }
 
 @media only screen and (max-width: 576px) {
-  .header-normal {
-    display: none;
-  }
-
-  .header-media {
-    display: block;
-  }
-
-  .header-media .navbar .container-fluid {
-    background-color: green;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
   .check-blog {
     margin-bottom: 10px;
   }
@@ -681,25 +674,11 @@ ul {
 }
 
 @media only screen and (max-width: 430px) {
-  .header-normal {
-    display: none;
-  }
-
-  .header-media {
-    display: block;
-  }
-
-  .header-media .navbar .container-fluid {
-    background-color: yellow;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
   nav.navbar {
     display: flex;
 
   }
+
 
   .navbar-brand {
     max-width: 47px;
