@@ -514,6 +514,13 @@ ul {
     display: block;
   }
 
+  .header-media .navbar .container-fluid {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
 
   .sidebar-navigation-normal {
     display: none;
@@ -660,9 +667,8 @@ ul {
 @media only screen and (max-width: 430px) {
   nav.navbar {
     display: flex;
-    justify-content: space-between;
-  }
 
+  }
 
   .navbar-brand {
     max-width: 47px;
@@ -678,4 +684,3 @@ ul {
     height: 1em;
   }
 }
-
