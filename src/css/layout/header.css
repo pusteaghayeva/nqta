@@ -695,29 +695,45 @@ ul {
     selector {
       property: value;
     }
+
+    .header-logo {
+      height: 30px;
+      /* Yalnız bu cihaz üçün dəyişdirildi */
+    }
+
+    .navbar-brand img {
+      width: 100%;
+      max-height: 20px;
+    }
+
+    .e-services {
+      padding: 4px 8px;
+      font-size: 13px;
+      background-color: red;
+    }
+
+    nav.navbar {
+      display: flex !important;
+    }
   }
 }
 
 /* Safari 6.1-10.0 (but not 10.1) */
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
-  @media {
-    selector {
-      property: value;
-    }
-  }
-}
 
-/* Safari media */
-/* iPhone 15 Pro Max - Portrait Mode */
-@media only screen and (device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) {
+  /* @media { */
+  selector {
+    property: value;
+  }
+
   .header-logo {
-    height: 60px;
+    height: 30px;
     /* Yalnız bu cihaz üçün dəyişdirildi */
   }
 
   .navbar-brand img {
     width: 100%;
-    max-height: 40px;
+    max-height: 20px;
   }
 
   .e-services {
@@ -727,6 +743,32 @@ ul {
   }
 
   nav.navbar {
-    display: flex;
+    display: flex !important;
+  }
+}
+
+/* } */
+
+/* Safari media */
+/* iPhone 15 Pro Max - Portrait Mode */
+@media only screen and (device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) {
+  .header-logo {
+    height: 30px;
+    /* Yalnız bu cihaz üçün dəyişdirildi */
+  }
+
+  .navbar-brand img {
+    width: 100%;
+    max-height: 20px;
+  }
+
+  .e-services {
+    padding: 4px 8px;
+    font-size: 13px;
+    background-color: red;
+  }
+
+  nav.navbar {
+    display: flex !important;
   }
 }
