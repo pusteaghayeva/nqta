@@ -507,11 +507,9 @@ ul {
     display: -webkit-box;
     /* Safari üçün */
     display: -webkit-flex;
-    /* Safari üçün */
     display: -ms-flexbox;
     /* IE10 üçün */
     display: flex;
-    /* Əsas Flexbox */
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -520,7 +518,6 @@ ul {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    background-color: rgb(83, 20, 156);
     margin: 0;
     padding: 0;
   }
@@ -529,9 +526,7 @@ ul {
   .navbar-brand {
     max-width: 90px;
     height: auto;
-    /* margin: 0 10px; */
-    margin-right: auto; /* Şəkili sola çəkir */
-    /* Mərkəzləşdirmək üçün əlavə boşluq */
+    margin-right: auto;
   }
 
   .navbar-brand img {
@@ -546,13 +541,11 @@ ul {
     /* Safari üçün */
     display: flex;
     flex-wrap: nowrap;
-    /* Satırda saxlayır */
     padding: 0;
   }
 
   .navbar-toggler {
     margin-left: auto;
-    /* Sol tərəfdə boşluq saxlayır */
     border: 1px solid #e3e5e4;
     border-radius: 1px;
   }
@@ -578,7 +571,6 @@ ul {
 
   .media-logo {
     width: 100px;
-    /* Şəkil ölçüsünü kiçiltmək üçün */
     height: auto;
     object-fit: contain;
   }
