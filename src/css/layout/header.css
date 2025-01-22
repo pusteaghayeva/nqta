@@ -516,7 +516,7 @@ ul {
   }
 
   .header-media .navbar .container-fluid {
-    background-color: red;
+    background-color: rgb(0, 217, 255);
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -529,6 +529,15 @@ ul {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
+    flex-grow: 3;
+    flex-grow: 0.6;
+
+    /* Global values */
+    flex-grow: inherit;
+    flex-grow: initial;
+    flex-grow: revert;
+    flex-grow: revert-layer;
+    flex-grow: unset;
   }
 
   .sidebar-navigation-normal {
