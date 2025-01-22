@@ -505,9 +505,13 @@ ul {
 @media only screen and (max-width: 992px) {
   .navbar>.container-fluid {
     display: -webkit-box;
+    /* Safari üçün */
     display: -webkit-flex;
+    /* Safari üçün */
     display: -ms-flexbox;
+    /* IE10 üçün */
     display: flex;
+    /* Əsas Flexbox */
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -516,41 +520,18 @@ ul {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    background-color: rgb(6, 61, 99);
     margin: 0;
     padding: 0;
-    background-color: #d8cc1f;
-  }
-  .navbar-nav {
-    flex-direction: column; /* Menyu alt-alta açılır */
-    align-items: flex-start; /* Sol tərəfə hizalanır */
-    width: 100%; /* Genişliyi tam edir */
   }
 
-  .navbar-nav li {
-    width: 100%; /* Hər bir menyu elementi tam genişlikdə olsun */
-  }
-
-  .navbar-nav a {
-    display: block; /* Linkləri blok kimi göstərir */
-    padding: 10px 15px; /* Daha yaxşı görsənməsi üçün boşluq */
-    text-align: left; /* Mətnləri sola hizalayır */
-  }
-
-  .navbar-toggler {
-    margin-left: auto; /* Toggler-i sağa çəkir */
-  }
-
-  .dropdown-menu {
-    position: static; /* Dropdown mövqeyini sabit edir */
-    float: none; /* Yan-yana gəlməsini əngəlləyir */
-    display: block; /* Alt-alta açılır */
-    width: 100%; /* Genişlik tam ekran olur */
-  }
 
   .navbar-brand {
     max-width: 90px;
     height: auto;
-    margin-right: auto;
+    /* margin: 0 10px; */
+    margin-right: auto; /* Şəkili sola çəkir */
+    /* Mərkəzləşdirmək üçün əlavə boşluq */
   }
 
   .navbar-brand img {
@@ -560,30 +541,27 @@ ul {
     object-fit: contain;
   }
 
-  /* nav.navbar {
+  nav.navbar {
     display: -webkit-flex;
+    /* Safari üçün */
     display: flex;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
+    /* Satırda saxlayır */
     padding: 0;
-  } */
+  }
 
   .navbar-toggler {
     margin-left: auto;
+    /* Sol tərəfdə boşluq saxlayır */
     border: 1px solid #e3e5e4;
     border-radius: 1px;
   }
-  .navbar-nav {
-    margin-left: auto; /* Navbarı sağa çəkir */
-    display: flex;
-    align-items: center;
-  }
-
-
 
   .header__logo {
     width: auto;
     height: 64px;
     display: -webkit-flex;
+    /* Safari üçün */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -597,22 +575,10 @@ ul {
       justify-content: space-between;
     }
   }
-  @supports (-webkit-touch-callout: none) {
-    .header__logo {
-      margin-left: 0 !important;
-      padding: 0 !important;
-    }
-  }
-  @-moz-document url-prefix() {
-    .header__logo {
-      margin-left: 0 !important;
-      padding: 0 !important;
-    }
-  }
-  
 
   .media-logo {
     width: 100px;
+    /* Şəkil ölçüsünü kiçiltmək üçün */
     height: auto;
     object-fit: contain;
   }
