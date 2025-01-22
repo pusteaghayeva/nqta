@@ -503,75 +503,6 @@ ul {
 }
 
 @media only screen and (max-width: 992px) {
-  .navbar>.container-fluid {
-    display: -webkit-box;
-    /* Safari üçün */
-    display: -webkit-flex;
-    /* Safari üçün */
-    display: -ms-flexbox;
-    /* IE10 üçün */
-    display: flex;
-    /* Əsas Flexbox */
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    background-color: rgb(83, 20, 156);
-    margin: 0;
-    padding: 0;
-  }
-  
-
-  .navbar-brand {
-    max-width: 90px;
-    height: auto;
-    margin: 0 10px;
-    /* Mərkəzləşdirmək üçün əlavə boşluq */
-  }
-
-  .navbar-brand img {
-    width: 100%;
-    height: auto;
-    -o-object-fit: contain;
-    object-fit: contain;
-  }
-
-  nav.navbar {
-    display: -webkit-flex;
-    /* Safari üçün */
-    display: flex;
-    flex-wrap: nowrap;
-    /* Satırda saxlayır */
-    padding: 0;
-  }
-
-  .navbar-toggler {
-    margin-left: auto;
-    /* Sol tərəfdə boşluq saxlayır */
-    border: 1px solid #e3e5e4;
-    border-radius: 1px;
-  }
-
-  .header__logo {
-    width: auto;
-    height: 64px;
-    display: -webkit-flex;
-    /* Safari üçün */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .media-logo {
-    width: 100px;
-    /* Şəkil ölçüsünü kiçiltmək üçün */
-    height: auto;
-    object-fit: contain;
-  }
 
   .sidebar-navigation {
     margin: 20px auto !important;
@@ -585,6 +516,17 @@ ul {
     display: block;
   }
 
+  /* .header-media .navbar .container-fluid {
+    -webkit-box-shadow: 1px 1px 7px rgba(0, 0, 0, .15);
+  }
+
+  .header-media .navbar .container-fluid {
+    -webkit-box-shadow: 1px 1px 7px rgba(177, 34, 34, 0.15);
+    box-shadow: 1px 1px 7px rgba(14, 163, 39, 0.15);
+    -webkit-display: flex;
+    -webkit-box-align: center;
+    -webkit-box-direction: reverse;
+  } */
 
   .navbar>.container,
   .navbar>.container-fluid,
@@ -597,10 +539,10 @@ ul {
     /* flex-wrap: nowrap; */
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(24, 156, 20);
+    background-color: yellow;
     margin: 0;
     padding: 0;
-    /* -webkit-justify-content: space-between; */
+    -webkit-justify-content: space-between;
   }
 
 
