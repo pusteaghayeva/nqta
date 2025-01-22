@@ -542,6 +542,7 @@ ul {
     background-color: yellow;
     margin: 0;
     padding: 0;
+    -webkit-justify-content: space-between;
   }
 
 
