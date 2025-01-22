@@ -520,17 +520,16 @@ ul {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    background-color: rgb(6, 61, 99);
+    background-color: rgb(83, 20, 156);
     margin: 0;
     padding: 0;
   }
-
+  
 
   .navbar-brand {
     max-width: 90px;
     height: auto;
-    /* margin: 0 10px; */
-    margin-right: auto; /* Şəkili sola çəkir */
+    margin: 0 10px;
     /* Mərkəzləşdirmək üçün əlavə boşluq */
   }
 
@@ -545,7 +544,7 @@ ul {
     display: -webkit-flex;
     /* Safari üçün */
     display: flex;
-    /* flex-wrap: nowrap; */
+    flex-wrap: nowrap;
     /* Satırda saxlayır */
     padding: 0;
   }
@@ -567,15 +566,6 @@ ul {
     justify-content: center;
   }
 
-  @supports (-webkit-touch-callout: none) {
-    .navbar>.container-fluid {
-      display: flex;
-      flex-wrap: nowrap;
-      align-items: center;
-      justify-content: space-between;
-    }
-  }
-
   .media-logo {
     width: 100px;
     /* Şəkil ölçüsünü kiçiltmək üçün */
@@ -594,6 +584,25 @@ ul {
   .header-media {
     display: block;
   }
+
+
+  .navbar>.container,
+  .navbar>.container-fluid,
+  .navbar>.container-lg,
+  .navbar>.container-md,
+  .navbar>.container-sm,
+  .navbar>.container-xl,
+  .navbar>.container-xxl {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(24, 156, 20);
+    margin: 0;
+    padding: 0;
+    /* -webkit-justify-content: space-between; */
+  }
+
 
   .sidebar-navigation-normal {
     display: none;
