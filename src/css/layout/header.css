@@ -529,7 +529,8 @@ ul {
   .navbar-brand {
     max-width: 90px;
     height: auto;
-    margin: 0 10px;
+    /* margin: 0 10px; */
+    margin-right: auto; /* Şəkili sola çəkir */
     /* Mərkəzləşdirmək üçün əlavə boşluq */
   }
 
