@@ -520,6 +520,12 @@ ul {
     -webkit-box-shadow: 1px 1px 7px rgba(0, 0, 0, .15);
   }
 
+  .header-media .navbar .container-fluid {
+    -webkit-box-shadow: 1px 1px 7px rgba(177, 34, 34, 0.15); /* Safari və köhnə brauzerlər */
+    box-shadow: 1px 1px 7px rgba(14, 163, 39, 0.15);         /* Digər müasir brauzerlər */
+}
+
+
   .sidebar-navigation-normal {
     display: none;
   }
