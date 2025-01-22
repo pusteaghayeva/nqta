@@ -503,7 +503,7 @@ ul {
 }
 
 @media only screen and (max-width: 992px) {
-  /* .navbar>.container-fluid {
+  .navbar>.container-fluid {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -518,6 +518,7 @@ ul {
     justify-content: space-between;
     margin: 0;
     padding: 0;
+    background-color: #033c48;
   }
 
 
@@ -534,18 +535,25 @@ ul {
     object-fit: contain;
   }
 
-  nav.navbar {
+  /* nav.navbar {
     display: -webkit-flex;
     display: flex;
     flex-wrap: nowrap;
     padding: 0;
-  }
+  } */
 
   .navbar-toggler {
     margin-left: auto;
     border: 1px solid #e3e5e4;
     border-radius: 1px;
   }
+  .navbar-nav {
+    margin-left: auto; /* Navbarı sağa çəkir */
+    display: flex;
+    align-items: center;
+  }
+
+
 
   .header__logo {
     width: auto;
@@ -554,42 +562,8 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-  } */
-
-  .navbar>.container-fluid {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(11, 190, 137);
-    margin: 0;
-    padding: 0;
   }
 
-  .header__logo {
-    margin-right: auto !important; /* Şəkili sola çəkir */
-    margin-left: 0 !important; /* Əlavə boşluqları sıfırlayır */
-    padding: 0; /* Daxili boşluğu təmizləyir */
-  }
-
-  .header__logo img {
-    width: auto;
-    height: auto;
-    max-width: 120px; /* Maksimal ölçü təyin edir */
-    object-fit: contain; /* Şəkili düzgün miqyaslayır */
-    display: block; /* Brauzer uyğunsuzluğu üçün */
-  }
-
-  .navbar-nav {
-    margin-left: auto; /* Navbarı sağa çəkir */
-    display: flex;
-    align-items: center;
-  }
-
-  .navbar-toggler {
-    margin-left: 10px; /* Toggler üçün əlavə boşluq */
-    border: 1px solid #e3e5e4;
-    border-radius: 1px;
-  }
   @supports (-webkit-touch-callout: none) {
     .navbar>.container-fluid {
       display: flex;
@@ -597,22 +571,19 @@ ul {
       align-items: center;
       justify-content: space-between;
     }
+  }
+  @supports (-webkit-touch-callout: none) {
     .header__logo {
       margin-left: 0 !important;
       padding: 0 !important;
     }
   }
-
   @-moz-document url-prefix() {
     .header__logo {
       margin-left: 0 !important;
       padding: 0 !important;
     }
   }
-  
-  /* @supports (-webkit-touch-callout: none) {
-   
-  } */
   
 
   .media-logo {
