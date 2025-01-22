@@ -539,7 +539,7 @@ ul {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
-    background-color: yellow;
+    background-color: grey;
     margin: 0;
     padding: 0;
     -webkit-justify-content: space-between;
