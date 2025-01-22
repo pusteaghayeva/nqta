@@ -518,9 +518,34 @@ ul {
     justify-content: space-between;
     margin: 0;
     padding: 0;
-    background-color: #033c48;
+    background-color: #d8cc1f;
+  }
+  .navbar-nav {
+    flex-direction: column; /* Menyu alt-alta açılır */
+    align-items: flex-start; /* Sol tərəfə hizalanır */
+    width: 100%; /* Genişliyi tam edir */
   }
 
+  .navbar-nav li {
+    width: 100%; /* Hər bir menyu elementi tam genişlikdə olsun */
+  }
+
+  .navbar-nav a {
+    display: block; /* Linkləri blok kimi göstərir */
+    padding: 10px 15px; /* Daha yaxşı görsənməsi üçün boşluq */
+    text-align: left; /* Mətnləri sola hizalayır */
+  }
+
+  .navbar-toggler {
+    margin-left: auto; /* Toggler-i sağa çəkir */
+  }
+
+  .dropdown-menu {
+    position: static; /* Dropdown mövqeyini sabit edir */
+    float: none; /* Yan-yana gəlməsini əngəlləyir */
+    display: block; /* Alt-alta açılır */
+    width: 100%; /* Genişlik tam ekran olur */
+  }
 
   .navbar-brand {
     max-width: 90px;
