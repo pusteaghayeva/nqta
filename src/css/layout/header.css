@@ -21,6 +21,7 @@
   background: var(--menuColor);
 }
 
+
 body {
   overflow-x: hidden;
   font-family: var(--fontFamilyMon);
@@ -516,28 +517,7 @@ ul {
   }
 
   .header-media .navbar .container-fluid {
-    background-color: rgb(212, 0, 255);
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -moz-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -moz-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    flex-grow: 2;
-    /* flex-grow: 0.6; */
-
-    /* Global values */
-    flex-grow: inherit;
-    flex-grow: initial;
-    flex-grow: revert;
-    flex-grow: revert-layer;
-    flex-grow: unset;
+    -webkit-box-shadow: 1px 1px 7px rgba(0, 0, 0, .15);
   }
 
   .sidebar-navigation-normal {
@@ -581,6 +561,7 @@ ul {
 
   nav.navbar {
     display: flex;
+    padding: 0;
   }
 
   .navbar-brand {
@@ -685,7 +666,7 @@ ul {
 @media only screen and (max-width: 430px) {
   nav.navbar {
     display: flex;
-
+    padding: 0;
   }
 
 
