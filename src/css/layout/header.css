@@ -516,19 +516,17 @@ ul {
     display: block;
   }
 
-  .header-media .navbar .container-fluid {
+  /* .header-media .navbar .container-fluid {
     -webkit-box-shadow: 1px 1px 7px rgba(0, 0, 0, .15);
   }
 
   .header-media .navbar .container-fluid {
     -webkit-box-shadow: 1px 1px 7px rgba(177, 34, 34, 0.15);
-    /* Safari və köhnə brauzerlər */
     box-shadow: 1px 1px 7px rgba(14, 163, 39, 0.15);
-    /* Digər müasir brauzerlər */
     -webkit-display: flex;
     -webkit-box-align: center;
     -webkit-box-direction: reverse;
-  }
+  } */
 
   .navbar>.container,
   .navbar>.container-fluid,
@@ -539,6 +537,8 @@ ul {
   .navbar>.container-xxl {
     display: flex;
     flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
   }
 
 
