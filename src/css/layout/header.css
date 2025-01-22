@@ -538,11 +538,11 @@ ul {
     display: flex;
     /* flex-wrap: nowrap; */
     align-items: center;
-    justify-content: space-between;
-    background-color: yellow;
+    justify-content: space-between !important;
+    /* background-color: yellow; */
     margin: 0;
     padding: 0;
-    -webkit-justify-content: space-between;
+    -webkit-justify-content: space-between !important;
   }
 
 
